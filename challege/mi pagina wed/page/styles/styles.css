@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Nunito|Permanent+Marker&display=swap');
+
+
+:root {
+    --primary-color:#459ACC;
+    --secondary-color:#8DE4FF;
+    --accent-color:#90FFDC;
+    --accent2-color:#87CBAC;
+
+}
+
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    align-content: center;
+    align-items:center;
+font-size: 16px;
+background: linear-gradient( dodgerblue , blue);
+}
+
+img {
+    max-width: 100%
+}
+
+h1 {
+    font-family: 'Permanent Marker','Nunito',sans-serif;
+    color: black;
+    font-style: italic;
+    font-size: 3rem;
+    text-shadow: 1px 3px white;
+}
+
+.motto {
+    text-shadow: .05px 1px black;
+    font-size: 1.5rem;
+    animation:blinkingText 1.2s infinite;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size:2rem;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family:'Black Han Sans', sans-serif;
+    color: whitesmoke;
+    font-size:1.4rem;
+}
+
+h4 {
+    font-family:'Black Han Sans', sans-serif;
+    color: whitesmoke;
+}
+
+header {
+    border-style:groove;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    background: linear-gradient( yellow , gold);
+
+}
+
+header>h1 {
+    color: red;
+}
+
+header>picture {
+    margin: auto;
+    align-content: center;
+    vertical-align: text-top;
+}
+
+nav { max-width:500px;
+    margin:auto;
+    border-style:groove;
+    background: linear-gradient(gold,yellow);    
+    line-height: 3em;
+    font-size: 1.2em;
+    display:flex;
+    justify-content:center;
+    align-items:center;    
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    padding: 1em;
+    min-width: 70px;
+}
+
+nav a:link,
+nav a:visited {
+    color: brown;
+}
+
+nav a:hover {
+    color: blue;
+    background-color: 639833;
+}
+
+p {
+    font-family: 'Nunito';
+    color: white;
+    padding: 1em
+}
+
+.griditem {
+    border: 5px ridge #639833;
+
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999
+}
+
+.colors td {
+    width: 25%;
+    height: 3em
+}
+
+.primary {
+    background-color: #6D4928;
+}
+
+.secondary {
+    background-color: #459ACC;
+}
+
+.accent1 {
+    background-color: #8ACDEA;
+}
+
+.accent2 {
+    background-color: white;
+}
+
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.social {
+    text-align: center;
+    align-content:center;
+    border: 3px solid green;
+}

@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Tapestry&display=swap')
+
+.home-title {
+
+    font-family: "Rock Salt", "Bradley Hand", "sans-serif";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+}
+
+body{
+    align-self: center;
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h2 {
+    margin:0;
+}
+
+
+
+
 div{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,9 +39,6 @@ div.a {
     text-align: center;
 }
 
-nav a{
-    text-align: center; 
-}
 
 #hero-msg h1{
     text-align: center;
@@ -27,24 +56,27 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 
 #background {
     height: 725px;
 }
 
-body {
-    background-color: #fcfbfb; 
-}
+
 
 header {
     background-color:rgba(20,30,13, .7);
 }
 
 nav a{
- background-color: #a2d2ff;
+ background-color: #d1dce6;
  text-align: center;
- color:#fcfbfb;
+ color:#f5dede;
  text-decoration: none;
+ padding: 35px;
 }
 
 nav a:hover {
@@ -64,6 +96,18 @@ h4{
     background-color: #a2d2ff;
     color:#fcfbfb;
     text-decoration: none;
+    font-size:18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;    
+}
+
+.card-img{
+    border: 10px solid#d9c2a3;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 .book:hover, .join:hover{
@@ -73,20 +117,29 @@ h4{
     background-color: #a2d2ff;
 }
 
-.msg p{
-    background-color: #2a9d8f;
-}
 
 #background{
     background-color: #a2d2ff;
 }
 
-.msg{
-    background-color: #003566;
+
+.msg {
+    background-color: #b3c28b;
+    line-height: 1.5em;
+    padding: 35px;
 }
+
+.msg p{
+    background-color: #2a9d8f;
+    padding-bottom: 15px;
+}
+
+
 
 footer{
     background-color: #2a9d8f;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -103,12 +156,21 @@ footer p{
     font-size: 1.2em;
 }
 
+footer .social img {
+ padding-top: 15px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
 .logo {
     width: 80px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{

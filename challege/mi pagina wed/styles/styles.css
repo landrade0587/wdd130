@@ -1,0 +1,61 @@
+body {background-color: rgb(25, 208, 225);}
+ 
+ nav {
+  color: black;
+  padding: 10px;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  
+  }
+
+  h1:hover {
+    background-color: rgb(208, 42, 214);
+    color: black;
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 15px auto;
+  }
+
+  h3 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin: 15px auto;
+  }
+  
+  img {
+    width: 800px;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h4 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px auto;
+    
+  }
+ 
+  footer p {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    margin: 10px auto;
+    
+  }
+
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+

@@ -1,0 +1,28 @@
+body {
+  background-color: gray;
+  max-width: 1600px;
+}
+ 
+ nav {
+  color: black;
+  padding: 10px;
+  }
+  
+  img {
+    width: 800px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;  
+  }
+.triple { 
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: darkgrey;
+  padding: 0%;
+  width: 20%;
+  margin: 5%;
+  display: inline;        
+  }
+
+
