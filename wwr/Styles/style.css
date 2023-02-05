@@ -8,7 +8,7 @@
 }
 
 #logo_link{
-    padding-top: 5px;
+    padding-top: 15px;
     justify-self: center;
 }
 
@@ -20,7 +20,6 @@ body{
     margin: 0;
     padding: 0;
 }
-
 
 
 h2 {
@@ -72,7 +71,7 @@ header {
 }
 
 nav a{
- background-color: #d1dce6;
+ background-color: #020a12;
  text-align: center;
  color:#f5dede;
  text-decoration: none;
