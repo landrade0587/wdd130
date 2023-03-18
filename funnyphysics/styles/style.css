@@ -87,9 +87,7 @@ main section img {
     opacity: .6;
     transform: scale(1.1);
 }
-.card-img, .mountains {
-    width: 100%;
-}
+
 .movement-of-objects{
     grid-column: 1/13;
     grid-row: 1/1;    
