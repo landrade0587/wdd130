@@ -86,8 +86,12 @@ main section img {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+    
 }
 
+.card-img, .mountains {
+    width: 100%;
+}
 .movement-of-objects{
     grid-column: 1/13;
     grid-row: 1/1;    
@@ -344,9 +348,6 @@ h3 {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
-
-
 
 
 
