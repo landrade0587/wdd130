@@ -188,7 +188,7 @@ section{
 }
 body{
     background-color:white;
-    font-family: Shadows into Light, cursive;
+    font-family: "Shadows into Light", cursive;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -234,11 +234,11 @@ h4{
     color:#0077b6;
 }
 h1{
-    font-family: "Cursive", Shadows into light;
+    font-family: "Cursive", "Shadows into light";
 }
 h2 {
     margin: 0;
-    font-family: "Cursive", Shadows into light;
+    font-family: "Cursive","Shadows into light";
     color:#0077b6;
 }
 h3 {
@@ -355,12 +355,7 @@ h3 {
 }
 
 /* Temperature */
-.temperature-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 5% 40% 40% 5%;
-    color: #d15523;
-}
+
 
 #temperature {
     display: grid;
@@ -395,91 +390,46 @@ h3 {
     height: 100%;
 }
 
-
-.home-card {
-    grid-column: 1/7;
-    grid-row: 2/3;
-    margin-top: 100px;
-}
-.home-card-img{
+.home-card-img, .planet-card-img, .space-card-img, .body-card-img{
     border: 5px solid #059c9e;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    height:50%;
-    width: 60%;
-
+    height:75%;
+    width: 70%;
    
     border-width: 10px;
     border-style: solid;
     padding: 0%;
     width: 20%;
     margin: 5%;
-    display: right;
+    display: inline; 
 }
-
+#temperature-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5% 40% 40% 5%;
+    color: #d15523;
+}
+.home-card {
+    grid-column: 1/7;
+    grid-row: 2/3;
+    
+}
 .planet-card {
     grid-column: 7/13;
     grid-row: 2/3;
-}
-.planet-card-img{
-    border: 5px solid #059c9e;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    height:50%;
-    width: 60%;
-
-    
-    border-width: 10px;
-    border-style: solid;
-    padding: 0%;
-    width: 20%;
-    margin: 5%;
-    display: inline;
 }
 .space-card {
     grid-column: 1/7;
     grid-row: 3/4;
 }
-.space-card-img{
-    border: 5px solid #059c9e;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    height:50%;
-    width: 60%;
-
-    border-width: 10px;
-    border-style: solid;
-    padding: 0%;
-    width: 20%;
-    margin: 5%;
-    display: inline;
-}
 .body-card {
     grid-column: 7/13;
     grid-row: 3/4;
-}
-
-.body-card-img{
-    border: 5px solid #059c9e;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    height:50%;
-    width: 60%;
-
-    border-width: 10px;
-    border-style: solid;
-    padding: 0%;
-    width: 20%;
-    margin: 5%;
-    display: inline;
-}
+  }
 
 
-
-
-
-
-  
+ 
   
   @media screen and (max-width: 1000px) {
       #hero, .home-grid {
