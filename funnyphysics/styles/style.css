@@ -426,7 +426,188 @@ h3 {
 .body-card {
     grid-column: 7/13;
     grid-row: 3/4;
-  }
+}
+
+/* oscillation*/
+
+#oscillation {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    height: 600px;
+}
+#oscillation-box {
+    grid-column: 1/4;
+    grid-row: 1/1;
+    z-index: -1;
+    height: 600px;
+}
+#oscillation-msg {
+    grid-column: 2/3;
+    grid-row: 1/1;    
+}
+#oscillation-msg h1{
+    text-align: center;
+    color:#d15523;
+}
+#oscillation-img {    
+    /* add border to image*/
+    border: 5px solid #555;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+.sun-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    border: 3px solid #d0a58b;
+    border-radius: 10px;
+    margin: 0.2rem;
+    background-color: #98c398;
+}
+#sun-name1 {
+    grid-column: 1/8;
+    grid-row: 1/2;
+    text-align: left;
+    padding-left: 0.8rem;
+    color:#d15523;
+}
+#sun-component1 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: left;
+    padding-left: 1rem;
+    color:#059c9e;
+}
+#ulist1{
+    grid-column: 1/4;
+    grid-row: 3/7;
+    font-size: 18px;
+    text-align: left;
+}
+#steps1{
+    grid-column: 5/8;
+    grid-row: 2/3;
+    text-align: left;
+    padding-left: 1rem;
+    color:#059c9e;
+}
+#olist1{
+    grid-column: 5/8;
+    grid-row: 3/9;
+    font-size: 18px;
+    text-align: left;
+}
+#sun-img1{
+    grid-column: 9/13;
+    grid-row: 3/10;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+.planet-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    border: 3px solid #d0a58b;
+    border-radius: 10px;
+    margin: 0.2rem;
+    background-color: #98c398;
+}
+#planet-name2{
+    grid-column: 1/7;
+    grid-row: 1/2;
+    text-align: left;
+    padding-left: 0.8rem;
+    color:#d15523;
+}
+#planet-component2{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: left;
+    padding-left: 1rem;
+    color:#059c9e;
+}
+#ulist2{
+    grid-column: 1/4;
+    grid-row: 3/7;
+    font-size: 18px;
+    text-align: left;
+}
+#steps2{
+    grid-column: 5/8;
+    grid-row: 2/3;
+    text-align: left;
+    padding-left: 1rem;
+    color:#059c9e;
+}
+#olist2{
+    grid-column: 5/8;
+    grid-row: 3/7;
+    font-size: 18px;
+    text-align: left;
+}
+#planet-img2{
+    grid-column: 9/13;
+    grid-row: 3/10;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+.stars-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    border: 3px solid #d0a58b;
+    border-radius: 10px;
+    margin: 0.2rem;
+    background-color: #98c398;
+}
+#stars-name3{
+    grid-column: 1/7;
+    grid-row: 1/2;
+    text-align: left;
+    padding-left: 0.8rem;
+    color:#d15523;
+}
+#stars-component3{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: left;
+    padding-left: 1rem;
+    color:#059c9e;
+}
+#ulist3{
+    grid-column: 1/4;
+    grid-row: 3/7;
+    font-size: 18px;
+    text-align: left;
+}
+#steps3{
+    grid-column: 5/8;
+    grid-row: 2/3;
+    text-align: left;
+    padding-left: 1rem;
+    color:#059c9e;
+}
+#olist3{
+    grid-column: 5/8;
+    grid-row: 3/7;
+    font-size: 18px;
+    text-align: left;
+}
+#stars-img3{
+    grid-column: 9/13;
+    grid-row: 3/10;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+
+
+
 
 
  
